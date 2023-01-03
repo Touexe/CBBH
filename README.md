@@ -178,7 +178,8 @@ zoomeye
 | `ffuf -recursion -recursion-depth 1 -u http://192.168.10.10/FUZZ -w /opt/useful/SecLists/Discovery/Web-Content/raft-small-directories-lowercase.txt` | Discovering files and folders that cannot be spotted by browsing the website.
 | `ffuf -w ./folders.txt:FOLDERS,./wordlist.txt:WORDLIST,./extensions.txt:EXTENSIONS -u http://www.target.domain/FOLDERS/WORDLISTEXTENSIONS` | Mutated bruteforcing against the target web server. |
 
-# Ffuf
+# ATTACKING WEB APPLICATIONS WITH FFUF
+## Ffuf
 
 | **Command**   | **Description**   |
 | --------------|-------------------|
@@ -193,7 +194,7 @@ zoomeye
 | `ffuf -w wordlist.txt:FUZZ -u http://admin.academy.htb:PORT/admin/admin.php -X POST -d 'FUZZ=key' -H 'Content-Type: application/x-www-form-urlencoded' -fs xxx` | Parameter Fuzzing - POST |
 | `ffuf -w ids.txt:FUZZ -u http://admin.academy.htb:PORT/admin/admin.php -X POST -d 'id=FUZZ' -H 'Content-Type: application/x-www-form-urlencoded' -fs xxx` | Value Fuzzing |  
 
-# Wordlists
+## Wordlists
 
 | **Command**   | **Description**   |
 | --------------|-------------------|
@@ -202,7 +203,7 @@ zoomeye
 | `/opt/useful/SecLists/Discovery/DNS/subdomains-top1million-5000.txt` | Domain Wordlist |
 | `/opt/useful/SecLists/Discovery/Web-Content/burp-parameter-names.txt` | Parameters Wordlist |
 
-# Misc
+## Misc
 
 | **Command**   | **Description**   |
 | --------------|-------------------|
