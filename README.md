@@ -241,6 +241,7 @@ zoomeye
 | --------------|-------------------|
 | `ctrl+u` | Show HTML source code in Firefox |
 
+# CROSS-SITE SCRIPTING (XSS)
 ## Commands
 
 | Code | Description |
