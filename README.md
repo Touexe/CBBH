@@ -36,6 +36,7 @@
 | [`CTRL+SHIFT+E`] | Show Network tab |
 | [`CTRL+SHIFT+K`] | Show Console tab |
 
+# USING WEB PROXIES
 ## Burp Shortcuts
 
 | **Shortcut**   | **Description**   |
@@ -60,6 +61,7 @@
 | **Shortcut**   | **Description**   |
 | --------------|-------------------|
 | [`CTRL+SHIFT+R`] | Force Refresh Page |
+
 
 ## WHOIS
 
