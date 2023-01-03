@@ -62,7 +62,7 @@
 | --------------|-------------------|
 | [`CTRL+SHIFT+R`] | Force Refresh Page |
 
-
+# INFORMATION GATHERING - WEB EDITION
 ## WHOIS
 
 | **Command** | **Description** |
